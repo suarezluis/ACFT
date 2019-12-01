@@ -16,11 +16,12 @@ import {
   StatusBar,
 } from 'react-native';
 import 'react-native-gesture-handler';
+import Navigator from './SRC/Navigator';
 export default class App extends Component {
   render() {
     return (
-      <View>
-        <Text>This is a test</Text>
+      <View style={{flex: 1}}>
+        <Navigator />
       </View>
     );
   }
